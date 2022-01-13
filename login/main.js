@@ -27,20 +27,19 @@ function signIn(){
     const promise = auth.signInWithEmailAndPassword(account.value, password.value);
     promise.catch(e => alert(e.message));
 }
-function signOut(){
-    auth.signOut();
-    alert("signed Out");
+function visitor(){
+    document.location.href="../visitor/index.html";
+    alert("Welcome!");
 }
 auth.onAuthStateChanged(function(user){
     
     if(user){
-        var account = user.account;
-        alert("Active User" + account);
+        var account = user.email;
+        alert("Welcom user:" + account);
 
         document.location.href="../admin/index.html";
     }
     else{
-        alert("No Active User");
     }
 }
 );

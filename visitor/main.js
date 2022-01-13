@@ -18,6 +18,10 @@ let currentTab = "";
 
 let content = $("#content");
 
+function goBack(){
+    document.location.href="../login/index.html";
+}
+
 async function getEquipment(){
     const equipmentDocs = await equipment.get();
     equipmentDocs.forEach((equipmentDoc) =>{

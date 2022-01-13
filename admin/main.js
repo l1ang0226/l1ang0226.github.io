@@ -78,6 +78,30 @@ content.on('click', (event) => {
     }
 });
 
+const $addItembtn = $("#addItembtn");
+
+$addItembtn.on('click',async (event) =>{
+    event.preventDefault();
+    const selector = $('#selector').val();
+    const name = $("#name").val();
+    const price = $("#price").val();
+    console.log(selector);
+    if(selector === 'weapon'){
+        await weapon.add({
+            name,
+            price
+        })
+        getWeapon();
+    }
+    if(selector === 'equipment'){
+        await equipment.add({
+            name,
+            price
+        })
+        getEquipment();
+    }
+    
+})
       
 const auth = firebase.auth();
 
