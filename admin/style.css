@@ -1,0 +1,76 @@
+body{
+    background-color: #f9f8f6;
+    color: #666666;
+}
+.out_side{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+.inputline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.admin{
+    width: 250px;
+    height: 280px;
+    border: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#selector{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ShopSize{
+    width: 940px;
+    height: 650px;
+    margin-left: auto ; 
+    margin-right: auto;
+    /* margin: 10px auto 20px auto; */
+    border: solid;
+}
+.ShopTitle{
+    height: 200px;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/finalwebproject-76874.appspot.com/o/icon.png?alt=media&token=6b73db71-ded5-4187-b5a3-279ce95ae3c3');
+    border: solid;
+}
+.button-group{
+    width: 150px;
+    height: 447px;
+    align-items: center;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#content{
+    float: left;
+    height: 447px;
+    width: 840px;
+    overflow: auto;
+}
+.whole_content{
+    display: flex;
+}
+.button-group>button {
+    width: 80%;
+}
+/* .button-group>button{
+    height: 30px;
+	width: 10px;
+} */
+.sentence{
+    width: 20%;
+}
+.thing_table{
+    width: auto;
+    font-size: 20px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border: solid;
+    align-items: center;
+} 

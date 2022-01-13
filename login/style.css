@@ -1,0 +1,33 @@
+.fram{
+    width: 500px;
+    height: 680px;
+    margin: 20px auto 20px auto;
+    border: solid;
+    align-items: center;
+}
+
+.fram img {
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+}
+
+.account_row{
+    display: flex;
+    font-size: 24pt;
+    margin: 2px 2px 2px 2px;
+}
+.password_row{
+    display: flex;
+    margin: 2px 2px 2px 2px;
+    font-size: 24pt;
+}
+.button {
+    font-size: 24px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+}
