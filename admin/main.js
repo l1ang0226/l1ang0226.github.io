@@ -91,6 +91,7 @@ $addItembtn.on('click',async (event) =>{
             name,
             price
         })
+        $("#content").html("");
         getWeapon();
     }
     if(selector === 'equipment'){
@@ -98,6 +99,7 @@ $addItembtn.on('click',async (event) =>{
             name,
             price
         })
+        $("#content").html("");
         getEquipment();
     }
     
